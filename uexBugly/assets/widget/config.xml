@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget widgetId="" appId="10030629" channelCode="000" version="0.1">
+	<name>Bugly插件</name>
+	<description>Bugly插件</description>
+	<author email="3g2win@mail.com">3g2win</author>
+	<icon src="icon.png"></icon>
+	<license href="http://3g2win.com"></license>
+	<content src="pages/uexBugly.html" encoding="utf-8"></content>
+	<logserverip></logserverip>
+	<obfuscation>false</obfuscation>
+	<updateurl></updateurl>
+	<showmyspace>true</showmyspace>
+	<bgcolor>#fefefe</bgcolor>
+	<widgetOne version="[widgetOneVersion]" />
+	<orientation>15</orientation>
+</widget>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="target-densitydpi=device-dpi,width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="../js/accommon.js"></script>
+    <title>uexBugly插件测试</title>
+    <script type="text/javascript">
+        
+        // 1. 初始化
+        function initSDK() {
+             var json = {
+                  appId:"123456"
+              }
+              uexBugly.init(JSON.stringify(json), function(data){
+                    alert("init===" + JSON.stringify(data));
+              });
+        }
+
+    accommon.ready(function() {
+        // alert("accommon.ready")
+    });
+
+    </script>
+</head>
+
+<body>
+    <div class="tit">uexBugly插件测试</div>
+    <div class="conbor">
+        <div class="consj">
+            <!-- 初始化 -->
+            <input class="btn" type="button" value="初始化" onClick="initSDK();">
+
+        </div>
+    </div>
+</body>
+
+</html>

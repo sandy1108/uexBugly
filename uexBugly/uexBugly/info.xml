@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+    <plugin
+        uexName="uexBugly" version="4.4.0.2" build="2021031703">
+        <info>0:（个人调试版本）腾讯Bugly错误监控</info>
+    </plugin>
+</uexplugins>
